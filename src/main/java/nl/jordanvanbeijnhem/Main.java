@@ -22,7 +22,8 @@ public class Main {
         puzzleManager.addPuzzle(new Day02_0("02_0", new File(classLoader.getResource("input/02_0.txt").getFile())));
         puzzleManager.addPuzzle(new Day02_1("02_1", new File(classLoader.getResource("input/02_1.txt").getFile())));
         puzzleManager.addPuzzle(new Day03_0("03_0", new File(classLoader.getResource("input/03_0.txt").getFile())));
+        puzzleManager.addPuzzle(new Day03_1("03_1", new File(classLoader.getResource("input/03_1.txt").getFile())));
 
-        puzzleManager.runPuzzle("03_0");
+        puzzleManager.runPuzzle("03_1");
     }
 }
