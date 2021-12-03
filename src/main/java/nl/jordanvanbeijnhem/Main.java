@@ -1,10 +1,7 @@
 package nl.jordanvanbeijnhem;
 
 import nl.jordanvanbeijnhem.puzzle.PuzzleManager;
-import nl.jordanvanbeijnhem.puzzle.days.Day01_0;
-import nl.jordanvanbeijnhem.puzzle.days.Day01_1;
-import nl.jordanvanbeijnhem.puzzle.days.Day02_0;
-import nl.jordanvanbeijnhem.puzzle.days.Day02_1;
+import nl.jordanvanbeijnhem.puzzle.days.*;
 
 import java.io.File;
 import java.util.logging.Level;
@@ -24,7 +21,8 @@ public class Main {
         puzzleManager.addPuzzle(new Day01_1("01_1", new File(classLoader.getResource("input/01_1.txt").getFile())));
         puzzleManager.addPuzzle(new Day02_0("02_0", new File(classLoader.getResource("input/02_0.txt").getFile())));
         puzzleManager.addPuzzle(new Day02_1("02_1", new File(classLoader.getResource("input/02_1.txt").getFile())));
+        puzzleManager.addPuzzle(new Day03_0("03_0", new File(classLoader.getResource("input/03_0.txt").getFile())));
 
-        puzzleManager.runPuzzle("02_1");
+        puzzleManager.runPuzzle("03_0");
     }
 }
