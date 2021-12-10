@@ -31,7 +31,11 @@ public class Main {
         puzzleManager.addPuzzle(new Day06_1("06_1", new File(classLoader.getResource("input/06_1.txt").getFile())));
         puzzleManager.addPuzzle(new Day07_0("07_0", new File(classLoader.getResource("input/07_0.txt").getFile())));
         puzzleManager.addPuzzle(new Day07_1("07_1", new File(classLoader.getResource("input/07_1.txt").getFile())));
+        puzzleManager.addPuzzle(new Day08_0("08_0", new File(classLoader.getResource("input/08_0.txt").getFile())));
+        puzzleManager.addPuzzle(new Day08_1("08_1", new File(classLoader.getResource("input/08_1.txt").getFile())));
+        puzzleManager.addPuzzle(new Day09_0("09_0", new File(classLoader.getResource("input/09_0.txt").getFile())));
+        puzzleManager.addPuzzle(new Day09_1("09_1", new File(classLoader.getResource("input/09_1.txt").getFile())));
 
-        puzzleManager.runPuzzle("07_1");
+        puzzleManager.runPuzzle("09_1");
     }
 }
